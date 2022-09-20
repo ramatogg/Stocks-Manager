@@ -68,10 +68,6 @@ def createSku():
     button_6.place(x=1102.0-425,y=739.0)
 
     
-    button_image_1 = PhotoImage(file=relative_to_assets("button_1.png"))
-    button_77 = Button(canvas2,image=button_image_1,borderwidth=0,width=227.0,height=51.0,highlightthickness=0,command=sku_info,relief="flat")
-    button_77.place(x=-100,y=50.0)
-    
 
 def sku_info():
     global entry_1, entry_2, entry_3, entry_4, entry_5
